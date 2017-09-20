@@ -6,4 +6,4 @@ foreach ($array as $value) {
     $sqw= pow($value, 2);
     $result += $sqw;
 }
-echo "Сумма элементов массива равна $result";
+echo "Сумма квадратов значений массива равна {$result}";
